@@ -1,0 +1,24 @@
+CREATE TABLE [dbo].[Players] (
+    [Character Name]  VARCHAR (50) NOT NULL,
+    [Server Location] VARCHAR (50) NOT NULL,
+    [Server Type]     VARCHAR (50) NOT NULL,
+    [Difficulty]      VARCHAR (50) NOT NULL,
+    [Gender]          VARCHAR (50) NOT NULL,
+    [Class]           VARCHAR (50) NOT NULL,
+    [Allegiance]      VARCHAR (50) NOT NULL,
+    [Race]            VARCHAR (50) NOT NULL,
+    [Body Type]       VARCHAR (50) NOT NULL,
+    [Skin Color]      VARCHAR (50) NOT NULL,
+    [Hair Style]      VARCHAR (50) NOT NULL,
+    [Hair Color]      VARCHAR (50) NOT NULL,
+    [Iris Color]      VARCHAR (50) NOT NULL,
+    [Accessory]       VARCHAR (50) NOT NULL,
+    [Trait]           VARCHAR (50) NOT NULL,
+    [Base Job]        VARCHAR (50) NOT NULL,
+    [Voice]           VARCHAR (50) NOT NULL,
+    [Companion Name]  VARCHAR (50) NOT NULL,
+    [Height Scale]    INT          NOT NULL,
+    [Is Awakened]     BIT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([Character Name] ASC)
+);
+
